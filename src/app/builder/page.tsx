@@ -33,7 +33,7 @@ export default function BuilderPage() {
         </div>
       ) : (
         <div>
-          <p className="mb-2">Thanks! Here's your draft profile:</p>
+          <p className="mb-2">Thanks! Here&apos;s your draft profile:</p>
           <ul className="list-disc pl-6">
             {steps.map((step, index) => (
               <li key={step.question}><strong>{step.question}</strong>: {answers[index]}</li>
